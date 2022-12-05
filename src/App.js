@@ -1,7 +1,14 @@
 import { useState } from 'react';
 
 function App() {
-  const [hello,setHello] =useState("Hello Word")
+  const [hello,setHello] =useState("")
+  
+useEffect(() => {
+  setHello("Hello Word")
+}, [])
+
+
+
   return (
     <div>
       {hello}
