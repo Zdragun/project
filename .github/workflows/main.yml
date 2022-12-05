@@ -19,6 +19,5 @@ jobs:
     - name: Build
       run: |
         npm install
-        npm run lint:js
         npm run build
         npm test
