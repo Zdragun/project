@@ -12,6 +12,7 @@ useEffect(() => {
   return (
     <div>
       {hello}
+      learn react
     </div>
   );
 }
